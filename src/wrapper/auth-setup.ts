@@ -13,6 +13,8 @@ export type AuthJwtSetSetupOptions = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   User: any;
   authOpt: AuthJwtOptions;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  emailer?: any;
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -41,6 +43,7 @@ export const authSetSetup = (config: AuthJwtSetSetupOptions) => {
     encode: encodeToken,
     session: false,
     Token: token,
+    emailer: config.emailer,
   };
 
   const authRouter = setupAuthManager(authMngrOPtions);
