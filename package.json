@@ -1,6 +1,6 @@
 {
   "name": "@juliusagency/auth-jwt-mongo-set",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "A npm package for use in Node.js projects.",
   "exports": {
     ".": {
