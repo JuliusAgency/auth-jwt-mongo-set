@@ -1,6 +1,6 @@
 {
   "name": "@juliusagency/auth-jwt-mongo-set",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A npm package for use in Node.js projects.",
   "exports": {
     ".": {
@@ -90,7 +90,7 @@
   "dependencies": {
     "@juliusagency/auth-jwt": "^0.0.0",
     "@juliusagency/auth-strategies": "^0.0.0",
-    "@juliusagency/base-user-mngr": "^0.0.2",
+    "@juliusagency/base-user-mngr": "^0.0.4",
     "@juliusagency/base-user-mongo": "^0.0.2"
   },
   "config": {
